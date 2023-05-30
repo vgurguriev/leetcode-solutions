@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Problem01 {
+public class Problem01 {
+    public static int[] twoSum(int[] nums, int target) {
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] + nums[i + 1] == target) {
+                return new int[]{i, i + 1};
+            }
+        }
+        return new int[0];
+    }
 }
