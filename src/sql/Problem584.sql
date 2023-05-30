@@ -14,7 +14,7 @@
 
     -- Return the result table in any order.
 
-    -- The query result format is in the following example.
+    -- The query result format is in the following example!
 
     select name from customer
     where referee_id != 2 or referee_id is null;
