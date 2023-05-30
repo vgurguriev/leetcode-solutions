@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class Problem01 {
+public class Problem705 {
     /*
     Design a HashSet without using any built-in hash table libraries.
 
@@ -15,8 +15,7 @@ public class Problem01 {
     private int numBuckets = 15000;
     List<Integer>[] buckets;
 
-
-    public Problem01() {
+    public Problem705() {
         buckets = new LinkedList[numBuckets];
     }
 
